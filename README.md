@@ -31,11 +31,13 @@ Algorithm Used
     
     o	Random Forest Classification (RFC)
 Technologies and Packages Used
+
   •	Python, Jupyter Notebook, Tableau
   
   •	Numpy, Pandas, Statsmodels.api
   
   •	Sklearn, Matplotlib, Seaborn
+  
 Project Description
 
 •	Motivation:
@@ -47,6 +49,7 @@ Project Description
   o	The dataset is downloaded from kaggle and it is also an open competition for participants who are willing to work on this project. The data size is around 10000 with meaningless and missing values. Thus, data cleansing is the first and the most important step to overcome in order to truly understand the importance weights for each variable.
 
 •	Methodology Approach:
+
   o	Data Cleansing:
     
     a.	Label each Category and Genres with their unique variables and make sure the results are representative.
@@ -69,6 +72,7 @@ Project Description
     
 
   Conclusion:
+  
   •	Based on the related marketing research, it presents that UserReviews is the most influential factor for users to install the apps from Google PlayStore. However, there are something interesting when visualizing with EDA. For instance, I find out that rating score grows higher when the size of the app becomes smaller. That is to say, even though the average app rating is around 4.2 which is quite high, developers can still work on the SIZE issue to get better rating scores.
   
   •	In addition, since the type of social entertainments and games are the most popular apps above all, developers can focus on those developments. According to the results of sentimental analysis, it is obvious that most users have positive attitudes toward Game, Health & Fitness and Travle & Local apps.
